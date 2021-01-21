@@ -1,0 +1,35 @@
+.navbar {
+  background: black;
+  color: #ffffff;
+  width: 100vw;
+  height: 60px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  width: 220px;
+  justify-content: space-evenly;
+  font-size: 20px;
+}
+.active {
+  color: lightsalmon;
+}
+.box:hover {
+  background: rgba(119, 136, 153, 0.253);
+}
+.box {
+  width: 80px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  transition: 0.25s;
+}
