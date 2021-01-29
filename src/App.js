@@ -5,17 +5,21 @@ import { Navbar } from './components/Navbar'
 import { TodoPage } from './page/TodoPage'
 import { HomePage } from './page/HomePage'
 
+import { ListProvider } from './ListContext'
+
 function App() {
   return (
-    <BrowserRouter>
-      <div className="App">
-        <Navbar />
-        <Switch>
-          <Route exact path="/" component={HomePage} />
-          <Route path="/todo" component={TodoPage} />
-        </Switch>
-      </div>
-    </BrowserRouter>
+    <ListProvider>
+      <BrowserRouter>
+        <div className="App">
+          <Navbar />
+          <Switch>
+            <Route exact path="/" component={HomePage} />
+            <Route path="/todo" component={TodoPage} />
+          </Switch>
+        </div>
+      </BrowserRouter>
+    </ListProvider>
   )
 }
 

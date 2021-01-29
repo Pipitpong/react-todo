@@ -1,6 +1,6 @@
 .page {
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
   min-height: 40vh;
   flex-direction: column;
@@ -9,4 +9,5 @@
   width: 250px;
   display: flex;
   justify-content: space-evenly;
+  margin-top: 100px;
 }
