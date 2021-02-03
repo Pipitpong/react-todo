@@ -21,7 +21,6 @@ export function TodoPage() {
   }
   function deleteList(line) {
     setList(list.filter((item) => item.line !== line));
-    console.log("delete", line);
   }
 
   function toggleList(line) {

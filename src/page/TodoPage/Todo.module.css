@@ -13,13 +13,13 @@
 }
 
 .body {
-  background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+  background-image: linear-gradient(120deg, #ffc773 0%, #ff977a 100%);
   height: 100vh;
 }
 h2 {
   font-size: 32px;
   color: rgb(31, 31, 31);
-  word-spacing: 17px;
+  word-spacing: 15px;
   letter-spacing: 10px;
   font-size: 36px;
 }

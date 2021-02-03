@@ -6,11 +6,9 @@ import { FaTrash } from "react-icons/fa";
 
 export function List({ todo, deleteList, toggleList }) {
   return (
-    <div
-      className={styles.boxList}
-      // className={todo.finish ? styles.a : styles.b}
-    >
-      {todo.text}
+    <div className={`${styles.boxList} ${todo.finish ? styles.completed : ""}`}>
+      <div className={styles.text}>{todo.text}</div>
+
       <span>
         <button onClick={toggleList} className={styles.button}>
           <FaCheck sice={15} />

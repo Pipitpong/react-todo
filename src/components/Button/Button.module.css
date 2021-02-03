@@ -7,8 +7,7 @@
   transition: all 0.2s ease;
 }
 .radius:focus {
-  outline: green;
-  border-color: green;
+  outline: none;
 }
 .radius:hover {
   background: #ec9868;
