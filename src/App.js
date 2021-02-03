@@ -1,11 +1,11 @@
-import './App.css'
-import { BrowserRouter, Switch, Route } from 'react-router-dom'
+import "./App.css";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
 
-import { Navbar } from './components/Navbar'
-import { TodoPage } from './page/TodoPage'
-import { HomePage } from './page/HomePage'
+import { Navbar } from "./components/Navbar";
+import { TodoPage } from "./page/TodoPage";
+import { HomePage } from "./page/HomePage";
 
-import { ListProvider } from './ListContext'
+import { ListProvider } from "./ListContext";
 
 function App() {
   return (
@@ -20,7 +20,7 @@ function App() {
         </div>
       </BrowserRouter>
     </ListProvider>
-  )
+  );
 }
 
-export default App
+export default App;

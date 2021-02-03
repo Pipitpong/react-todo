@@ -1,0 +1,16 @@
+.radius {
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  width: 40px;
+  background: white;
+  transition: all 0.2s ease;
+}
+.radius:focus {
+  outline: green;
+  border-color: green;
+}
+.radius:hover {
+  background: #ec9868;
+  color: #1f1f1f;
+}
